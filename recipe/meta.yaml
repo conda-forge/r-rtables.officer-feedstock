@@ -1,4 +1,4 @@
-{% set version = '0.1.1' %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rtables.officer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rtables.officer/rtables.officer_{{ version }}.tar.gz
-  sha256: 7c4b4659a47862827971f8597639e65863e37a444782dd451838fd1221df0fc1
+  sha256: 3ee48ca00a15718665c26903012ac98f58bd3bd479a1321640ff7d3e63f563fd
 
 build:
   number: 0
@@ -57,11 +57,8 @@ test:
 about:
   home: https://github.com/insightsengineering/rtables.officer, https://insightsengineering.github.io/rtables.officer/
   license: Apache-2.0
-  summary: Designed to create and display complex tables with R, the 'rtables' R package allows
-    cells in an 'rtables' object to contain any high-dimensional data structure, which
-    can then be displayed with cell-specific formatting instructions. Additionally,
-    the 'rtables.officer' package supports export formats related to the Microsoft Office
-    software suite, including Microsoft Word ('docx') and Microsoft PowerPoint ('pptx').
+  summary: Designed to create and display complex tables with R, the 'rtables' R package allows cells in an 'rtables' object to contain any high-dimensional data structure, which can then be displayed with cell-specific formatting instructions. Additionally, the 'rtables.officer' package supports export formats related to
+    the Microsoft Office software suite, including Microsoft Word ('docx') and Microsoft PowerPoint ('pptx').
   license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
