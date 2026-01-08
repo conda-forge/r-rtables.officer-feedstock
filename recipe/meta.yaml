@@ -30,24 +30,24 @@ requirements:
     - r-base
     - r-checkmate >=2.1.0
     - r-flextable >=0.9.10
-    - r-formatters >=0.5.11
+    - r-formatters >=0.5.12
     - r-lifecycle >=0.2.0
-    - r-magrittr >=1.5
-    - r-officer >=0.7.0
-    - r-rlistings >=0.2.11
-    - r-rtables >=0.6.12
+    - r-officer >=0.7.1
+    - r-rlistings >=0.2.13
+    - r-rtables >=0.6.15
     - r-stringi >=1.6
+    - r-systemfonts
   run:
     - r-base
     - r-checkmate >=2.1.0
     - r-flextable >=0.9.10
-    - r-formatters >=0.5.11
+    - r-formatters >=0.5.12
     - r-lifecycle >=0.2.0
-    - r-magrittr >=1.5
-    - r-officer >=0.7.0
-    - r-rlistings >=0.2.11
-    - r-rtables >=0.6.12
+    - r-officer >=0.7.1
+    - r-rlistings >=0.2.13
+    - r-rtables >=0.6.15
     - r-stringi >=1.6
+    - r-systemfonts
 
 test:
   commands:
